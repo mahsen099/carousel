@@ -12,7 +12,7 @@ $('.slider').slick({
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
-        infinite: true,
+        infinite: false,
         dots: false
       }
     },
@@ -20,6 +20,7 @@ $('.slider').slick({
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
+        infinite: false,
         slidesToScroll: 1
       }
     },
@@ -27,6 +28,7 @@ $('.slider').slick({
       breakpoint: 480,
       settings: {
         slidesToShow: 1.2,
+        infinite: false,
         slidesToScroll: 1
       }
     }
@@ -48,7 +50,7 @@ responsive: [
     settings: {
       slidesToShow: 3,
       slidesToScroll: 1,
-      infinite: true,
+      infinite: false,
       dots: false
     }
   },
@@ -56,6 +58,7 @@ responsive: [
     breakpoint: 600,
     settings: {
       slidesToShow: 2,
+      infinite: false,
       slidesToScroll: 1
     }
   },
@@ -63,6 +66,7 @@ responsive: [
     breakpoint: 480,
     settings: {
       slidesToShow: 1,
+      infinite: false,
       slidesToScroll: 1
     }
   }
@@ -99,7 +103,7 @@ responsive: [
     settings: {
       slidesToShow: 1.2,
       slidesToScroll: 1,
-      infinite: false,
+      infinite: true,
     }
   }
 ]
@@ -119,7 +123,7 @@ $('.scroll').slick({
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
-        infinite: true,
+        infinite: false,
         dots: false
       }
     },
@@ -127,6 +131,7 @@ $('.scroll').slick({
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
+        infinite: false,
         slidesToScroll: 1
       }
     },
@@ -134,6 +139,7 @@ $('.scroll').slick({
       breakpoint: 480,
       settings: {
         slidesToShow: 1.2,
+        infinite: false,
         slidesToScroll: 1
       }
     }
@@ -142,7 +148,7 @@ $('.scroll').slick({
 // slider-one
 $('.slider-one').slick({
 dots: false,
-infinite: false,
+infinite: true,
 speed: 300,
 slidesToShow: 1,
 slidesToScroll: 1,
