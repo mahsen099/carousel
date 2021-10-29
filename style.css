@@ -3,6 +3,10 @@
     text-decoration: none !important;
     font-family: 'Verdana Pro' !important;
   }
+  .slick-disabled {
+    opacity: 0.2;
+    pointer-events:none;
+}
   .row{
     padding-left: 12px;
     padding-right: 12px;
@@ -13,8 +17,21 @@
       padding-left: 0px;
   }
   .card{
-    border-style: none
+    border-style: none;
   }
+  .slick-slide {
+    margin-bottom: 0;
+    object-fit: cover;
+}
+.slick-track
+{
+    display: flex !important;
+}
+
+.slick-slide
+{
+    height: inherit !important;
+}
 
 /* Hover/Focus state */
 a:hover {
@@ -25,6 +42,7 @@ a:hover {
   .card:hover{
       box-shadow: 1px 3px 4px rgb(0 0 0 / 20%);
   }
+ 
 .card-body{
     padding: 24px 24px;
 }
@@ -401,6 +419,7 @@ text-align: center;
         width: 93% !important;
     }
 }
+/* 
 @media (max-width: 600px) {
     a:hover h4 {
         text-decoration: underline !important;
@@ -457,4 +476,82 @@ text-align: center;
         .vertical-comp .slick-track{
             display: contents;
         }
-  }
+  } */
+  @media (max-width: 600px) {
+    .slider .next_arrow {
+        right: -6%;
+    }
+    .infinite-slider .next_arrow {
+        right: -6%;
+    }
+    .scroll .next_arrow {
+        right: -4%;
+    }
+    .vertical-comp .next_arrow {
+        right: -6%;
+    }
+    .slide-comp .next_arrow {
+        right: 2%;
+    }
+    .slide-comp .prev_arrow {
+        left: -4%;
+    }
+    .py-2{
+        padding-left: 12px !important;
+        }
+        .slide-comp{
+            margin: 0 auto !important;
+            width: 100%;
+        }
+        .slide-comp p {
+            margin-right: 7% !important;
+            margin-left: 7% !important;
+        }
+        .card-body {
+            padding: 12px 12px;
+        }
+        .vertical-comp .slick-track{
+            display: contents;
+        }
+        .vertical-comp .next_arrow {
+           display: none !important;
+        }
+        .vertical-comp .prev_arrow {
+            display: none !important;
+        }
+        .slider-one{
+            width: 93% !important;
+        }
+        .slider-one .next_arrow {
+            right: -6%;
+        }
+        .slider-one .prev_arrow {
+            left: -3%;
+        }
+}
+@media (max-width: 325px) {
+    .slider .next_arrow {
+        right: -7%;
+    }
+    .infinite-slider .next_arrow {
+        right: -7%;
+    }
+    .scroll .next_arrow {
+        right: -5%;
+    }
+    .vertical-comp .next_arrow {
+        right: -7%;
+    }
+    .slide-comp .next_arrow {
+        right: 1%;
+    }
+    .slider-one .next_arrow {
+        right: -7%;
+    }
+    .slide-comp .prev_arrow {
+        left: -6%;
+    }
+}
+
+
+
