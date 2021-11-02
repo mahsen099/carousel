@@ -24,7 +24,7 @@
     object-fit: cover;
 }
 .slick-initialized .slick-slide {
-    padding-right: 2px;
+    padding-right: 3px;
 }
 .slick-track
 {
