@@ -23,6 +23,9 @@
     margin-bottom: 0;
     object-fit: cover;
 }
+.slick-initialized .slick-slide {
+    padding-right: 2px;
+}
 .slick-track
 {
     display: flex !important;
